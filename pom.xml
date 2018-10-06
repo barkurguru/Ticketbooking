@@ -49,10 +49,12 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-		    <groupId>org.sonarsource.sonarqube</groupId>
+		    <groupId>org.codehaus.sonar</groupId>
 		    <artifactId>sonar-plugin-api</artifactId>
 		    <version>4.5.7</version>
-		</dependency> 
+		    <scope>provided</scope>
+		</dependency>
+
 	</dependencies>
 
 	<build>
